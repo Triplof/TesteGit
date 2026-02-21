@@ -1,7 +1,11 @@
 git init
 git add .
-git commit -m
+git commit -m "mensagem"
 git log
-git checkout
+git checkout nomedabranch (vai até a branch)
+git checkout -b nome-branch (cria branch)
 git branch
-git push -u
+git push origin master (empurra mudanças para o github master)
+git push origin nova-branc (empurra mudanças para nova branch)
+git pull origin master (puxa as mudanças do master)
+git status (olha status das mudanças)
